@@ -59,7 +59,8 @@ input {
     border-radius: 5px;
     cursor: pointer;
 }
-input:hover{
+
+input:hover {
     background-color: #F49401;
     color: white;
 
@@ -99,9 +100,50 @@ input:hover{
     }
 
 }
-.titleAbout{
+
+.location_map {
+    text-align: center;
+
+    img {
+        width: 550px;
+    }
+
+}
+
+.from {
+    position: absolute;
+    right: 700px;
+    bottom: 150px;
+}
+
+.end {
+    position: absolute;
+    right: 250px;
+    bottom: 400px;
+}
+
+.EditBtn {
+    text-align: end;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+
+}
+
+.destination {
+    background-color: #F8E9CB;
+    width: 175px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    color: #F49401;
+    border: 2px solid;
+}
+
+.titleAbout {
     display: flex;
-    i{
+
+    i {
         border-radius: 50%;
         padding: 10px;
         background-color: #f493017f;
@@ -109,20 +151,21 @@ input:hover{
         color: #F49401;
     }
 
-    .titleInfo{
+    .titleInfo {
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin-left: 25px;
         gap: 5px;
-        #name{
+
+        #name {
             color: #F49401;
             font-size: 30px;
         }
     }
 }
 
-hr{
+hr {
     margin-top: 10px;
     width: 50%;
     color: white;
@@ -136,31 +179,53 @@ hr{
     justify-content: space-between;
     padding: 10px;
     padding-left: 25px;
-    .logout{
-        i{
+
+    .logout {
+        i {
             margin-top: 10px;
             font-size: 30px;
             color: rgba(255, 255, 255, 0.5);
         }
     }
 }
-hr{}
-.subMenuLeft{
+
+hr {}
+
+.subMenuLeft {
     display: flex;
     flex-direction: column;
     margin-bottom: 450px;
 
-    div{
+    div {
         display: flex;
         gap: 20px;
         color: rgba(255, 255, 255, 0.5);
         font-size: 25px;
     }
-    .choice{
+
+    .choice {
         margin-bottom: 20px;
         color: white;
     }
 }
+.subMenuLeftAbout {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 450px;
+
+    div {
+        display: flex;
+        gap: 20px;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 25px;
+    }
+
+    .about {
+        margin-top: 20px;
+        color: white;
+    }
+}
+
 
 .options .option {
     display: flex;
