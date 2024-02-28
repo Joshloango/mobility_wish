@@ -38,39 +38,48 @@ body {
         margin: 20px auto;
         height: 40px;
         width: 200px;
+        background-color: white;
+        color: #F49401;
+        border: 1px solid #F49401;
+        border-radius: 30px;
+        cursor: pointer;
+
+    }
+
+    .formBtn:hover {
+
         background-color: #F49401;
         border: 0;
         color: white;
-        border-radius: 30px;
 
     }
 
     .formText {
-       
+
         width: 100%;
-    
+
         height: 25px;
 
         border: 1px solid #ccc;
 
         border-radius: 5px;
-  
+
         padding: 10px;
 
         margin: 15px 0px;
         font-size: 16px;
-      
+
         font-family: Arial, sans-serif;
-  
+
         background-color: #f9f9f9;
-       
+
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-     
+
         color: #444;
 
         &:focus {
             border-color: #000;
-     
+
         }
     }
 
@@ -96,12 +105,15 @@ body {
 
             }
         }
-        .divSignUp{
+
+        .divSignUp {
             text-align: center;
         }
+
         p {
-            
+
             color: gray;
+
             a {
                 text-decoration: none;
                 color: #F49401;
@@ -116,7 +128,7 @@ body {
             background-repeat: no-repeat;
             background-position: center center;
             width: 70%;
-            
+
         }
     }
 }
