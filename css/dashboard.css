@@ -116,6 +116,82 @@ input:hover {
     bottom: 150px;
 }
 
+.card {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #F49401;
+    box-shadow: 10px 5px 5px #f4930111;
+
+    p {
+        font-size: 15px;
+    }
+
+    .TextInfo {
+        #nameStudent {
+            color: #F49401;
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+
+        .destinationDashboard {
+            color: #F49401;
+        }
+    }
+
+    .emailDashboardTeacher {
+        display: flex;
+        justify-content: center;
+
+        i {
+            color: #F49401;
+            font-size: 25px;
+            margin-right: 10px;
+        }
+    }
+
+    .btnSelection {
+        width: 100px;
+        height: 25px;
+        border-radius: 10px;
+        border: 1px solid #F49401;
+        cursor: pointer;
+    }
+
+    #go {
+        background-color: #F49401;
+        color: white;
+    }
+
+    #go:hover {
+        background-color: white;
+        color: #F49401;
+    }
+
+    #nogo {
+        background-color: white;
+        color: #F49401;
+    }
+
+    .selection {
+        text-align: end;
+    }
+
+    #nogo:hover {
+        background-color: #F49401;
+        color: white;
+    }
+
+    .selectionPart {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+}
+
 .end {
     position: absolute;
     right: 250px;
@@ -208,6 +284,7 @@ hr {}
         color: white;
     }
 }
+
 .subMenuLeftAbout {
     display: flex;
     flex-direction: column;
